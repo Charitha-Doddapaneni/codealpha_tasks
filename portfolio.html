@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      .container {
+        width: 90%;
+        margin: auto;
+      }
+      nav,
+      footer {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        background: linear-gradient(90deg, #7ebeff, #fd75ff);
+        color: white;
+      }
+      .nav-logo {
+        font-size: 22px;
+        font-weight: bold;
+        padding-left: 20px;
+      }
+      .nav-menu ul {
+        list-style: none;
+        display: flex;
+        padding-right: 20px;
+      }
+      .nav-menu ul li {
+        margin: 0 15px;
+      }
+      .nav-menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+      }
+      .featured-box {
+        text-align: center;
+        padding: 20px 0;
+      }
+      .featured-text span {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .social_icons {
+        margin-top: 15px;
+      }
+      .social_icons .icon {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 24px;
+      }
+      .social_icons a {
+        color: black;
+        text-decoration: none;
+      }
+      .social_icons a i {
+        font-size: 24px;
+      }
+      .section {
+        padding: 20px 0;
+        text-align: center;
+      }
+      .skills-box {
+        margin-top: 15px;
+      }
+      .skills-list span {
+        display: inline-block;
+        background: #ddd;
+        padding: 8px 12px;
+        margin: 5px;
+        border-radius: 5px;
+      }
+      .education-content {
+        margin-top: 10px;
+      }
+      .education-section {
+        margin-bottom: 8px;
+      }
+      .contact-info {
+        margin-top: 10px;
+      }
+      footer {
+        width: 100vw;
+        text-align: center;
+        padding: 15px 0;
+      }
+      @media (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          text-align: center;
+        }
+        .nav-menu ul {
+          flex-direction: column;
+          padding: 10px 0;
+        }
+        .social_icons .icon {
+          font-size: 20px;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">D CHARITHA</div>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <section class="featured-box" id="home">
+        <div class="featured-text">
+          <span>D CHARITHA</span>
+          <p>
+            I am a Computer Science Engineering [Data Science] student
+            passionate about technology and innovation.
+          </p>
+        </div>
+        <div class="social_icons">
+          <a href="https://www.instagram.com/charitha_doddapaneni" class="icon"
+            ><i class="uil uil-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/charitha-doddapaneni-147293281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            class="icon"
+            ><i class="uil uil-linkedin-alt"></i
+          ></a>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <h1>About Me</h1>
+        <p>
+          I am a third-year B.Tech student specializing in CSE-DATA SCIENCE at
+          SV College of Engineering, Tirupati.
+        </p>
+      </section>
+      <section class="section" id="education">
+        <h1>Education</h1>
+        <div class="education-content">
+          <div class="education-section">
+            <p>2022-2026: Sri Venkateshwara College Of Engineering</p>
+          </div>
+          <div class="education-section">
+            <p>2020-2022: Mangal Junior College</p>
+          </div>
+          <div class="education-section">
+            <p>2008-2020: Mangalam Vidyalam</p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <h1>Get in Touch</h1>
+        <p>Email: doddapanenicharitha@gmail.com</p>
+        <p>Phone: 8247823955</p>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2025 D CHARITHA. All rights reserved.</p>
+      <div class="social_icons">
+        <a href="https://www.instagram.com/charitha_doddapaneni" class="icon"
+          ><i class="uil uil-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/charitha-doddapaneni-147293281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          class="icon"
+          ><i class="uil uil-linkedin-alt"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
